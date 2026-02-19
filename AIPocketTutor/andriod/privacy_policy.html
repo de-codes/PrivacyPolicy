@@ -23,25 +23,35 @@
 <body>
 
 <h1>Privacy Policy</h1>
-<p class="effective-date">Effective Date: February 12, 2026</p>
+<p class="effective-date">Effective Date: February 19, 2026</p>
 <p><strong>AI PocketTutor</strong> ("the App") is developed and maintained by BitSprouts ("we", "us", or "our"). This privacy policy explains how we handle information when you use our App.</p>
+
+<h2>Information You Provide (Optional)</h2>
+<p>AI PocketTutor collects minimal information, and all of it stays on your device:</p>
+<ul>
+    <li><strong>Name and email address:</strong> If you choose to generate a Certificate of Completion, you will be asked to provide your name and email address. This information is stored <strong>only on your device</strong> and is used solely to personalize your certificate. It is <strong>never</strong> transmitted to our servers or any third party.</li>
+</ul>
 
 <h2>Information We Do Not Collect</h2>
 <p>AI PocketTutor is designed with your privacy in mind. The App:</p>
 <ul>
-    <li>Does <strong>not</strong> collect any personal information (name, email, phone number, etc.)</li>
     <li>Does <strong>not</strong> track your location</li>
     <li>Does <strong>not</strong> use analytics or tracking services</li>
     <li>Does <strong>not</strong> use cookies</li>
-    <li>Does <strong>not</strong> require account creation or login</li>
+    <li>Does <strong>not</strong> require account creation or login (Google Sign-In is optional)</li>
     <li>Does <strong>not</strong> store any data on external servers</li>
+    <li>Does <strong>not</strong> share any data with third parties beyond what is required for Google Play Billing and optional Google Sign-In</li>
 </ul>
 
 <h2>Data Stored Locally on Your Device</h2>
-<p>The App stores the following data <strong>only on your device</strong> using Android SharedPreferences:</p>
+<p>The App stores the following data <strong>only on your device</strong> using Android SharedPreferences and local files:</p>
 <ul>
-    <li><strong>Reading progress:</strong> Which chapter you last read in each module, so you can resume where you left off.</li>
-    <li><strong>Purchase status:</strong> Whether you have unlocked full access, so the App can remember your purchase.</li>
+    <li><strong>Reading progress:</strong> Which chapters you have visited in each module, so you can track and resume your progress.</li>
+    <li><strong>Bookmarks:</strong> Your bookmarked chapter in each module.</li>
+    <li><strong>Purchase status:</strong> Whether you have unlocked full access, protected with integrity verification.</li>
+    <li><strong>Reading streak:</strong> Your daily reading streak count, reading dates, and milestone achievements.</li>
+    <li><strong>Reading schedule:</strong> Your preferred reading time, daily goal duration, and today's accumulated reading time.</li>
+    <li><strong>Certificate data:</strong> Your name, email, and generated certificate PDF (stored locally only).</li>
 </ul>
 <p>This data is never transmitted off your device. You can clear it at any time by using the "Reset Progress" button in the App or by clearing the App's data in your device settings.</p>
 
@@ -49,9 +59,30 @@
 <p>AI PocketTutor offers a one-time in-app purchase to unlock all content. This transaction is processed entirely by <strong>Google Play</strong>. We do not have access to your payment information (credit card numbers, billing address, etc.). Google's handling of your payment data is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
 
 <h2>Third-Party Services</h2>
-<p>The only third-party service used by the App is:</p>
+<p>The App uses the following third-party services:</p>
 <ul>
-    <li><strong>Google Play Billing Library:</strong> Used solely to process the in-app purchase. No other third-party SDKs, analytics tools, or advertising frameworks are included.</li>
+    <li><strong>Google Play Billing Library:</strong> Used solely to process the one-time in-app purchase. No other payment or financial data is handled by the App.</li>
+    <li><strong>Google Sign-In:</strong> Used optionally to retrieve your email address when generating a Certificate of Completion. The App requests only your email address. Google Sign-In is handled entirely by Google; the App does not access or store your Google account password. Your email is stored only on your device and is not transmitted to any server. Google's handling of your account data is governed by <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</li>
+</ul>
+<p>No analytics tools, advertising frameworks, or other third-party SDKs are included.</p>
+
+<h2>Notifications</h2>
+<p>The App may request permission to send local notifications for daily reading reminders. These notifications are:</p>
+<ul>
+    <li>Entirely optional — you choose whether to enable them</li>
+    <li>Generated locally on your device using Android's AlarmManager</li>
+    <li>Not connected to any remote push notification service</li>
+    <li>Can be disabled at any time from the App's reading schedule settings or your device's notification settings</li>
+</ul>
+
+<h2>Certificate of Completion</h2>
+<p>When you generate a Certificate of Completion, the App:</p>
+<ul>
+    <li>Asks for your name and email address (entered manually or via optional Google Sign-In)</li>
+    <li>Stores this information <strong>only on your device</strong> in SharedPreferences</li>
+    <li>Generates a PDF certificate stored locally in the App's private file directory</li>
+    <li>Does <strong>not</strong> transmit your name, email, or certificate to any server</li>
+    <li>Allows you to share or download the certificate using your device's standard sharing features</li>
 </ul>
 
 <h2>Children's Privacy</h2>
